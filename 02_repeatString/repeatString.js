@@ -1,4 +1,16 @@
-const repeatString = function() {
+const repeatString = function(word,nTimes) {
+    let string = '';
+    if (nTimes < 0 ) {
+        string = 'ERROR';
+    } else{
+        
+        for(i = 0 ; i < nTimes; i++){
+            string += word
+        }
+        
+    }
+    return string
+
 
 };
 
